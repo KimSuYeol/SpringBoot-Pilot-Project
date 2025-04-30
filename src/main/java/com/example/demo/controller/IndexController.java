@@ -13,10 +13,10 @@ public class IndexController {
             return "Hello, World!!";
         }
 
-        // @GetMapping("/fire")
-        // public String fire() {
-        //     return "views/fire";
-        // }
+        @GetMapping("/fire")
+        public String fire() {
+            return "views/fire";
+        }
 
 }
 
